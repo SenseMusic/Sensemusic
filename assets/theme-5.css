@@ -1024,7 +1024,7 @@ blockquote:last-child {
     background-color: transparent;
   }
   .js-no-scroll .page-navbar.page-navbar-from-light-fg .navbar-brand-media-img-light {
-    display: block;
+/*     display: block; */
   }
   .js-no-scroll .page-navbar.page-navbar-from-light-fg .navbar-brand-media-img-dark {
     display: none;

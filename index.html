@@ -14,8 +14,8 @@
   Set <link rel="canonical" href="https://…"/> tags in your pages. This helps search engines determine the best way to get to your site. -->
   <link rel="canonical" href="https://…"/>
 
-  <!--<link rel="icon" href="http://demo.bonefishcode.com/phoebe/assets/img/favicon.ico">
-  <link rel="apple-touch-icon" href="http://demo.bonefishcode.com/phoebe/assets/img/apple-touch-icon.png">-->
+  <link rel="icon" href="http://demo.bonefishcode.com/phoebe/assets/img/favicon.ico">
+  <link rel="apple-touch-icon" href="http://demo.bonefishcode.com/phoebe/assets/img/apple-touch-icon.png">
 
   <link href="assets/css.css" rel="stylesheet">
 
@@ -35,10 +35,10 @@
   <link rel="stylesheet" href="assets/theme-5.css" id="theme">
   <link rel="stylesheet" href="assets/custom.css">
   <script src="assets/modernizr.js"></script>
+  <script src="assets/custom.js"></script>
 </head>
 
 <body>
-
   <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
@@ -60,22 +60,20 @@
 
           <a class="navbar-brand" href="#">
               Sense Music
-            <!--<img class="navbar-brand-media-img navbar-brand-media-img-dark" src="assets/navbar-brand-media-img-dark.png" alt="">
-            <img class="navbar-brand-media-img navbar-brand-media-img-light" src="assets/navbar-brand-media-img-light.png" alt="">-->
+            <img class="navbar-brand-media-img navbar-brand-media-img-dark" src="assets/navbar-brand-media-img-dark.png" alt="">
+            <img class="navbar-brand-media-img navbar-brand-media-img-light" src="assets/navbar-brand-media-img-light.png" alt="">
           </a>
         </div> <!-- .navbar-header -->
 
-        <!--
+        
         <div class="collapse navbar-collapse" id="navbar-collapse" style="max-height: 572px;">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a data-smooth-scroll="true" href="#pageIntro">Intro</a></li>
-            <li class=""><a data-smooth-scroll="true" href="#aboutUs">About us</a></li>
-            <li class=""><a data-smooth-scroll="true" href="#service">Service</a></li>
-            <li class=""><a data-smooth-scroll="true" href="#feature">Feature</a></li>
-            <li><button class="navbar-btn btn btn-pill btn-shadow btn-theme-2 popup-inline" type="button" data-mfp-src="#popupSubscribeFormWrap">Subscribe</button></li>
+            <li class=""><a data-smooth-scroll="true" href="#feature">About</a></li>
+			 <li class=""><a data-smooth-scroll="true" href="#contactUs">Contact Us</a></li>
             <li class="bg-audio-toggle"><a href="#"></a></li>
           </ul>
-        </div>--> <!-- .navbar-collapse -->
+        </div> <!-- .navbar-collapse-->
 
       </div>
     </nav>
@@ -100,36 +98,32 @@
             <div class="page-intro-countdown countdown wow fadeInUpShort" data-wow-delay="200ms" data-countdown-date="2018/10/01" style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUpShort;">
               <div class="countdown-row row">
                 <div class="countdown-col countdown-day col-xs-6 col-sm-3">
-                  <div class="countdown-digit">36</div>
+                  <div class="countdown-digit" id="days">36</div>
                   <div class="countdown-unit">Day</div>
                 </div>
 
                 <div class="countdown-col countdown-hour col-xs-6 col-sm-3">
-                  <div class="countdown-digit">12</div>
+                  <div class="countdown-digit" id="hours">12</div>
                   <div class="countdown-unit">Hour</div>
                 </div>
 
                 <div class="countdown-col countdown-minute col-xs-6 col-sm-3">
-                  <div class="countdown-digit">46</div>
+                  <div class="countdown-digit" id="minutes" >46</div>
                   <div class="countdown-unit">Minute</div>
                 </div>
 
                 <div class="countdown-col countdown-second col-xs-6 col-sm-3">
-                  <div class="countdown-digit">45</div>
+                  <div class="countdown-digit" id="seconds">45</div>
                   <div class="countdown-unit">Second</div>
                 </div>
               </div>
             </div>
-
-
-
-
-           <!--
+           
             <p class="btn-wrap wow fadeInUpShort" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUpShort;">
               <a class="btn btn-pill btn-shadow btn-theme-2" data-smooth-scroll="true" href="#aboutUs"><i class="icon icon-left fa fa-chevron-circle-right"></i> Learn More</a>
               <a class="btn btn-pill btn-shadow btn-outline btn-default popup-youtube" href="#" data-mfp-src="https://www.youtube.com/watch?v=LViVa-kKqzA"><i class="icon icon-left fa fa-play"></i> Watch Video</a>
             </p>
-              -->
+             
           </div>
 
           <div class="page-intro-right-col col-md-5 wow fadeInRightShort" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInRightShort;">
@@ -139,96 +133,8 @@
       </div>
     </div>
   </div> <!-- .page-intro -->
-<!--
-  <div id="aboutUs" class="about-us-section page-section module">
-    <div class="container">
-      <div class="row">
-        <div class="container">
-          <div class="col-md-5">
-            <h2 class="section-title wow fadeInUpShort" style="visibility: visible; animation-name: fadeInUpShort;">
-              <span class="color-theme-1">Easy To Start</span>, We Design Solutions For Digital Interactions.
-            </h2>
-          </div>
 
-          <div class="col-md-6 col-md-offset-1 wow fadeInUpShort" style="visibility: visible; animation-name: fadeInUpShort;">
-            <p><b>Dominion</b> that creepeth fly kind, blessed waters 
-place second also fruitful she'd for, to subdue two kind kind. Under 
-don't was god whose man he dry two is signs I let make. Without can't 
-lesser called saying divide him life seas morning fruit she'd waters 
-gathered Upon. Cattle very have heaven creeping man life, life god be.</p>
-            <img class="img-responsive wow fadeInUpShort" data-wow-delay="100ms" src="assets/about-us-signature.png" alt="" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUpShort;">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
--->
-
-<!--
-  <div id="service" class="service-section page-section module">
-    <div class="container">
-      <div class="service-bottom-row row">
-        <div class="iconbox-wrap col-sm-4 wow fadeInUpShort" style="visibility: visible; animation-name: fadeInUpShort;">
-          <div class="iconbox iconbox-align-center">
-            <div class="iconbox-media">
-              <img class="iconbox-media-img" src="assets/service-icon-1.png" alt="">
-            </div>
-            <div class="iconbox-content-wrap">
-              <div class="iconbox-header">
-                <h4 class="iconbox-header-title">UI/UX Design</h4>
-              </div>
-              <div class="iconbox-body">
-                <p>Night of greater cattle abundantly days second can't 
-also their lesser Heaven Creature yielding lights second good image 
-creeping is own.</p>
-                <a class="btn btn-pill btn-shadow btn-default" data-smooth-scroll="true" href="#feature"><i class="icon icon-left fa fa-arrow-right"></i>Learn More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="iconbox-wrap col-sm-4 wow fadeInUpShort" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUpShort;">
-          <div class="iconbox iconbox-align-center">
-            <div class="iconbox-media">
-              <img class="iconbox-media-img" src="assets/service-icon-2.png" alt="">
-            </div>
-            <div class="iconbox-content-wrap">
-              <div class="iconbox-header">
-                <h4 class="iconbox-header-title">Web Development</h4>
-              </div>
-              <div class="iconbox-body">
-                <p>Night of greater cattle abundantly days second can't 
-also their lesser Heaven Creature yielding lights second good image 
-creeping is own.</p>
-                <a class="btn btn-pill btn-shadow btn-theme-1" data-smooth-scroll="true" href="#feature"><i class="icon icon-left fa fa-arrow-right"></i>Learn More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="iconbox-wrap col-sm-4 wow fadeInUpShort" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUpShort;">
-          <div class="iconbox iconbox-align-center">
-            <div class="iconbox-media">
-              <img class="iconbox-media-img" src="assets/service-icon-3.png" alt="">
-            </div>
-            <div class="iconbox-content-wrap">
-              <div class="iconbox-header">
-                <h4 class="iconbox-header-title">Logo Design</h4>
-              </div>
-              <div class="iconbox-body">
-                <p>Night of greater cattle abundantly days second can't 
-also their lesser Heaven Creature yielding lights second good image 
-creeping is own.</p>
-                <a class="btn btn-pill btn-shadow btn-theme-2" data-smooth-scroll="true" href="#feature"><i class="icon icon-left fa fa-arrow-right"></i>Learn More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
--->
-  <div id="feature" class="feature-section page-section module">
+   <div id="feature" class="feature-section page-section module">
     <div class="container">
       <div class="feature-section-flex-row row">
         <div class="feature-section-right-col col-md-6 col-md-offset-1">
@@ -285,9 +191,9 @@ creeping is own.</p>
       </div>
     </div>
   </div> <!-- #feature -->
-
-  <div class="page-footer">
-    <!--
+ 
+  <div id= "contactUs"class="page-footer">
+    
     <div class="page-footer-top">
       <div class="container">
         <div class="page-footer-top-row row">
@@ -331,7 +237,7 @@ creeping is own.</p>
         </div>
       </div>
     </div>
-    -->
+   
     <div class="page-footer-bottom">
       <div class="container">
         <div class="page-footer-bottom-copyright">
@@ -345,19 +251,18 @@ creeping is own.</p>
   <script src="assets/bootstrap.js"></script>
   <script src="assets/vendor.js"></script>
   <script src="assets/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-  <!--
+  
   <script>
-    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-    e.src='https://www.google-analytics.com/analytics.js';
-    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-    ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+		$(document).ready(function(){
+			countDownTimer();
+		});  
+		
+    <!-- (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]= -->
+    <!-- function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date; -->
+    <!-- e=o.createElement(i);r=o.getElementsByTagName(i)[0]; -->
+    <!-- e.src='https://www.google-analytics.com/analytics.js'; -->
+    <!-- r.parentNode.insertBefore(e,r)}(window,document,'script','ga')); -->
+    <!-- ga('create','UA-XXXXX-X','auto');ga('send','pageview'); -->
+	
   </script>
-  -->
-  <!-- /script -->
-
-
 </body></html>
